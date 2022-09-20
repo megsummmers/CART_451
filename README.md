@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to my page traveller <3</title>
+    Welcome to my page traveller <3
   </head>
   <body>
     <h1>Enjoy your time here!</h1>
