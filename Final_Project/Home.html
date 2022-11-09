@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script type="module">
+            const { Path } = require("paper/dist/paper-core");
+            var myPath = new Path();
+            myPath.strokeColor = 'black';
+
+            function onMouseD(event){
+                myPath.add(event.point);
+            }
+        </script>
+        <title>Caricature</title>
+    </head>
+    <body>
+        <div class="main">
+            <h3>DRAW YOURSELF:</h3>
+            <div class="interface">
+                <canvas height="400px" width="500px" style="background: #FFFFFF; -webkit-user-drag: none; user-select: none;"></canvas>
+            </div>
+        </div>
+    </body>
+</html>
