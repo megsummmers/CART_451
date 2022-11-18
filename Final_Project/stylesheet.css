@@ -1,25 +1,85 @@
 body{
     color:#FFFFFF;
-    background-image: linear-gradient(#219EBC, #46B9C0);
+    background-color: #219EBC;
     font-size: 15px;
   }
 
   .main{
     background-color: #D3EDEE;
     margin: auto;
-    margin-top: 10%;
-    width: 80%;
-    height: 500px;
+    margin-top: 8%;
+    width: 65%;
+    height: 660px;
     border: 4px solid #1F6D80;
     border-radius: 10px;
   }
 
   .interface{
     background-color: #A8DADC;
-    height: 440px;
+    height: 500px;
     border-top: 4px solid #1F6D80;
     overflow: scroll;
-
   }
 
-  
+  .frontPage {
+    background-color: #A8DADC;
+    height: 600px;
+    border-top: 4px solid #1F6D80;
+    overflow: scroll;
+  }
+
+  .canvasButton {
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 20%;
+    font-size: 50px;
+    margin-left: 15%;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 8px;
+    border-top: 2px solid #1F6D80;
+    box-shadow: 5px 10px #1F6D80;
+    
+  }
+
+  .bioButton {
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 20%;
+    font-size: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 8px;
+    border-top: 2px solid #1F6D80;
+    box-shadow: 5px 10px #1F6D80;
+  }
+  .profileButton {
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 20%;
+    font-size: 50px;
+    margin-left: 2%;
+    margin-right: 10%;
+    border-radius: 8px;
+    border-top: 2px solid #1F6D80;
+    box-shadow: 5px 10px #1F6D80;
+  }
+
+  .canvasButton:hover {
+    border: 3px solid #1F6D80;
+    box-shadow: 5px 10px 5px #1F6D80;
+  }
+  .bioButton:hover {
+    border: 3px solid #1F6D80;
+    box-shadow: 5px 10px 5px #1F6D80;
+  }
+  .profileButton:hover {
+    border: 3px solid #1F6D80;
+    box-shadow: 5px 10px 5px #1F6D80;
+  }
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
