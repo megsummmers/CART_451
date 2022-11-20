@@ -2,13 +2,20 @@
 <html>
   <head>
     <style>
-      body {background-color: #967aa1;
+      body {background-color: #6d597a;
       margin: 10%;
       color: #192a51;
+      
       }
       .main {background-color: #aaa1c8;
         height: 500px;
         padding: 5%;
+        border-radius: 5px;
+        border: 2px solid #d5c6e0;
+        box-shadow: 10px 10px #d5c6e0;
+      }
+      p {
+        font-size: 22px;
       }
       .bio {
         text-align: center;
@@ -19,12 +26,15 @@
         overflow: scroll;
       }
       button {
-        border: 1px solid #192a51;
+        font-size: 18px;
+        margin-right: 2px;
+        border: 2px solid #6d597a;
         border-radius: 5px;
         border-bottom: none;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
       }
+
     </style>
     <script type="text/javascript">
       function changeTxt(ID){
@@ -41,7 +51,7 @@
         document.getElementById("Nov1B").style.backgroundColor = "#aaa1c8";
         document.getElementById("Nov8B").style.backgroundColor = "#aaa1c8";
         document.getElementById("Nov22B").style.backgroundColor = "#aaa1c8";
-        document.getElementById("Project").style.backgroundColor = "#aaa1c8";
+        document.getElementById("ProjectB").style.backgroundColor = "#aaa1c8";
         
         document.getElementById(ID).style.display = "block";
         document.getElementById(ID + "B").style.backgroundColor = "#d5c6e0";
@@ -53,8 +63,7 @@
     <div class="main">
       <div class="bio">
         <h1>Hii, welcome to Website <3</h1>
-        <p>My name is Margaret, but please call me Meg!</p>
-        <p>I'm a CART specialization student who wants to pursue design in the future including designing video games and websites.<br>I love crafting stories and making experiences that make others laugh and have fun because life can be pretty boring.</p>
+        <p>My name is Margaret, but please call me Meg!<br>I'm a CART specialization student who wants to pursue design in the future including designing video games and websites.<br>I love crafting stories and making experiences that make others laugh and have fun because life can be pretty boring.</p>
         <br>
       </div>
       <div class="sections">
